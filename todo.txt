@@ -1,0 +1,3 @@
+1 - add aditional HDD for storage
+2 - transfer storage location to new HDD before sending email notification
+3 - encrypt credentials, find a way to do without credentials
