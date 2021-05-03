@@ -88,7 +88,7 @@ void emit_event_info(
         if (strcmp(event_name, "CREATED") && (strcmp(basename(path), ".DS_Store") != 0) && isfile){
           printf("A new file has been added\n");
           char buffer[500];
-          char curl[100] = "curl -X PUT -u admin:dietpi --cookie \"XDEBUG_SESSION=MROW4A\;path=/\;\" --data-binary @\"";
+          char curl[100] = "curl -X PUT -u ########## --cookie \"XDEBUG_SESSION=MROW4A\;path=/\;\" --data-binary @\"";
           char patho[100] = "/Users/chakibcerny/Desktop/cloud/toUpload\/";
           char dest[100] = "\" \"http:\/\/10.42.44.33/owncloud/remote.php/webdav/test\/";
           char move[100] = " /Users/chakibcerny/Desktop/cloud/Backup/%s";
