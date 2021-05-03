@@ -1,7 +1,7 @@
 <?php
 $CONFIG = array (
-  'passwordsalt' => 'uJ7UFGoWcpM+WC+GCaVlH+FdpmWj6P',
-  'secret' => 'UWIU6+QiWOWyrkqCfF9xReuv7WoOCdfHDVOUl60MYgMFcIm6',
+  'passwordsalt' => '############',
+  'secret' => '##########',
   'trusted_domains' =>
   array (
     0 => 'localhost',
